@@ -1,0 +1,24 @@
+{
+  "name": "iochat",
+  "version": "1.0.0",
+  "homepage": "https://snapsheep.github.io/iochat",
+  "description": {
+    "socket.io": "*",
+    "express": "*"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "JAYU.Dev",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0",
+    "terser": "^3.14.1"
+  }
+}
